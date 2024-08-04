@@ -46,6 +46,7 @@ for (let i = 0; i < hero_array.length; i++) { // if we write <= according to ind
 //                                                   // ALt +shit + down key
 // }
 
+
 //continue
 for (let index = 1; index <= 20; index++) {
     if (index == 5) {
@@ -53,6 +54,7 @@ for (let index = 1; index <= 20; index++) {
         continue;
     }
     console.log(`Value of i is ${index}`);
+
 }
 //Print 1 to 10 Loop
 for (let count = 1; count <= 10; count++) {
@@ -100,21 +102,6 @@ while (i <= 5) {
     i++;
 }
 
-// prog 2
-/*let total = 0;
-
-let more_numbers: boolean = Yes;
-while (more_numbers == yes){
-    input a number
-    add number to total
-    ask 'Any more numbers? Yes/No'
-    say what the total is
-} */
-// This algorithm would keep iterating until the answer at the end of the loop is ‘No’, ie it will continue to iterate WHILE there are more numbers to add. A condition-controlled loop would be used because there is no way of knowing in advance how many more numbers will need to be entered before the algorithm stops.
-
-
-
-
 
 
 // 3. Condition Controlled Loop - do While Loop
@@ -124,6 +111,7 @@ do {
     console.log(`Score is ${score}`);
     score = score + 1;
 } while (score <= 10);
+
 //
 let iy = 20;
 do {
@@ -178,12 +166,7 @@ export {};
 // for (const [key , value] of myObject ) {
 //     console.log(key, ':-', value)
 // }
-// // Practice Questions
-// // print all the even numbers 0 to 100
-// for ( i = 0; i<=100 ; i++) {
-//    if ( i%2 === 0)
-//    console.log( ` i = ${i}`);
-// }
+// 
 
 
 
@@ -260,17 +243,7 @@ while (arr < myArray1.length) {
 //     console.log(" we are printing 1 to 5 while  loop");
 //     i++;
 // }
-// // // prog 2
-// // /*let total = 0;
-// // let more_numbers: boolean = Yes;
-// // while (more_numbers == yes){
-// //     input a number 
-// //     add number to total
-// //     ask 'Any more numbers? Yes/No'
-// //     say what the total is 
-// // } */
-// // // This algorithm would keep iterating until the answer at the end of the loop is ‘No’, ie it will continue to iterate WHILE there are more numbers to add. A condition-controlled loop would be used because there is no way of knowing in advance how many more numbers will need to be entered before the algorithm stops.
-// // //
+
 //for off loop on an Object dont work for object, Objects can iterate using this loop
 // const myObject = {
 //     'game' :'NFS',
@@ -279,12 +252,8 @@ while (arr < myArray1.length) {
 // for (const [key , value] of myObject ) {
 //     console.log(key, ':-', value)
 // }
-// // Practice Questions
-// // print all the even numbers 0 to 100
-// for ( i = 0; i<=100 ; i++) {
-//    if ( i%2 === 0)
-//    console.log( ` i = ${i}`);
-// }
+
+    
 // / // }
 // // // Infinite loop with break condition
 // // let i1: number = 0;
@@ -322,19 +291,11 @@ while (arr < myArray1.length) {
 // // }
 // // /*console.log("Pakistan".toLowerCase());
 // // console.log("Pakistan".toUpperCase()); */ // upper condition can be made better with these two methods
-// // //Simple loop example
-// // for (x = 0;  x < countries.length; x++) /*{
-// //    /* if (countries[x].length>5){
-// //         console.log (`${countries[x]} Length=${countries[x].length}->Check`);
-// //     }else {
-// //         console.log (`${countries[x]} -> un-Check`);
-// //     }
-// //     }*/
-// //     if (countries.includes("Pakistan")) {
-// //         console.log("Pakistan Zindabad");
-// //     }
-// // /* for (x=1; x<5; x++){ // x++ is a counter means whenever check, this is a post operator add value after bracket
-// //     console.log(x);
+// // 
+
+
+/* for (x=1; x<5; x++){ // x++ is a counter means whenever check, this is a post operator add value after bracket
+    console.log(x);
 // // }
 // // // we can also use loop in reverse as below
 // // x=10;
@@ -344,5 +305,5 @@ while (arr < myArray1.length) {
 // // // never ending loop
 // // for (;true;x++) {
 // // };
-// //  // it has three parameters 1st variable, 2nd of testing, and third incrementing, we will find different ways of usinf it
+// //  // it has three parameters 1st variable, 2nd of testing, and third incrementing, we will find different ways of using it
 // // */ 
