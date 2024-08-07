@@ -265,7 +265,9 @@ while (arr < myArray1.length) {
 // //     }
 // // }
 // // //Although this example appears to be an infinite loop initially, it has an internal break condition that stops the loop when i becomes greater than or equal to 10
-// // //Recursive Function
+// 
+
+//Recursive Function
 // // function infiniteLoop() {
 // //     console.log("This is an infinite loop!");
 // //     infiniteLoop(); // Calls itself infinitely
